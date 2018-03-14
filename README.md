@@ -24,3 +24,14 @@ SSH Port: 2200
 * Created "catalog" user as limited PostgreSQL role
 * Created mod_wsgi app for my catalog project
 * Set Google API key to allow from URL
+
+## 3rd-Party Resources Used
+
+* [Amazon Lightsail](https://aws.amazon.com/lightsail/) VPS
+    * 512MB RAM, 1 vCPU, 20GB SSD
+* Ubuntu Server 16.04
+
+## Documentation Shoutouts
+
+* [Flask `mod_wsgi`](http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/)
+* [PostgreSQL](https://www.postgresql.org/)
