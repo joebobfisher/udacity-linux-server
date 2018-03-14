@@ -4,6 +4,8 @@ IP Address: 18.222.4.27
 
 URL: http://18.222.4.27/
 
+SSH Port: 2200
+
 ## Software Installed
 
 * Apache
@@ -20,7 +22,5 @@ URL: http://18.222.4.27/
     * Deny standard SSH (port 22) connections
     * Allow HTTP and NTP connections
 * Created "catalog" user as limited PostgreSQL role
-
-## TODO
-
-* Serve Flask app as a WSGI app
+* Created mod_wsgi app for my catalog project
+* Set Google API key to allow from URL
